@@ -1,2 +1,7 @@
-# sport.io
-Aqui podemos ver la maquetación responsive de una pagina de deportes
+# Maquetado de Página de Deportes
+
+Este proyecto consiste en el maquetado de una página web de deportes.
+
+## Enlace al proyecto
+
+Puedes visualizar el proyecto [aquí](https://miguelvasquezal.github.io/sport.io/).
