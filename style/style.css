@@ -1,0 +1,444 @@
+* {
+  font-family: "Be Vietnam Pro";
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232c50;
+  /* background-color: rgb(249, 249, 249); */
+}
+
+/* ------Estilos de la sección header------ */
+
+/* 1---- estilos al logo ------- */
+header {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6rem;
+}
+
+.logo img {
+  height: 25px;
+  width: auto;
+}
+
+/* Ocultando el texto del h1 */
+.logo h1 {
+  /* text-indent: -9999px; */
+  font-size: 0px;
+}
+
+/* 2---- ESTILOS DEL NAVEGADOR ------- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 3---- ESTILOS DE CONTACT ------- */
+.contact-btn {
+  background-color: #8b48bf;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: 1.3rem;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-toggle img {
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* ------DANDO ESTILOS DEL MAIN ----- */
+
+/* 1. --------------news-------------- */
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18%;
+  padding: 5rem 3rem;
+  background-color: #f5f5f5;
+}
+/* 2. --------------news-------------- */
+.news__icono {
+  width: 540px;
+}
+.news__icono img {
+  width: 100%;
+}
+.news__intro {
+  width: 450px;
+  text-align: right;
+}
+.news__intro h2 {
+  font-size: 45px;
+  color: #232c50;
+  margin: 0;
+}
+.news__intro h3 {
+  font-size: 1rem;
+  margin: 2.5rem 0;
+}
+
+/* ------------DANDO ESTILOS A CURIOSIDADES-------------- */
+
+.curiosity {
+  background-color: #8b48bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9%;
+  padding: 1rem 0rem;
+  color: white;
+}
+.curiosity h2 {
+  font-size: 36px;
+  width: 450px;
+}
+.curiosity p {
+  font-size: 1rem;
+  width: 450px;
+}
+/* ------DANDO ESTILOS A CARDS-------------- */
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: #fafafa;
+  padding: 1rem;
+  padding: 2rem 0rem;
+}
+.cards__container {
+  width: 550px;
+  height: 160px;
+  display: flex;
+  margin: 1.5rem 1rem;
+  flex-direction: column;
+}
+.cards__number {
+  width: 70px;
+  height: 43px;
+  border-radius: 35px;
+  border: none;
+  background-color: #8b48bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem;
+  position: absolute;
+  margin-top: -56px;
+  margin-left: 0;
+}
+.cards__tittle {
+  height: 43px;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  border-radius: 35px 0px 0px 35px;
+  font-size: 1rem;
+  color: #323851;
+  padding-left: 85px;
+  /* background-color: rgba(139, 72, 191, 0.3); */
+}
+.cards__desc {
+  font-size: 1rem;
+  color: #b3b2b7;
+  text-align: left;
+  width: 347px;
+  padding-left: 85px;
+}
+
+/* ---------DEPORTISTAS----------- */
+.sport {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 3rem 0;
+}
+.sport__title {
+  color: #242e53;
+  font-size: 2.5rem;
+}
+.sport__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.sport__name {
+  color: #3f4868;
+  font-size: 1rem;
+}
+.sport__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sport__description {
+  width: 403px;
+  font-size: 1rem;
+  color: #b3b2b7;
+  text-align: center;
+}
+.more-button {
+  background-color: #8b48bf;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 2rem 0rem;
+}
+/* --------ESTILOS DE LA SECCION SEARCH-------- */
+.search {
+  background-color: #8b48bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 8rem;
+  flex-wrap: wrap;
+  color: white;
+  gap: 2.5rem;
+}
+
+.search_release p {
+  margin: 0;
+  font-size: 1rem;
+  font-size: 40px;
+}
+.search__btn {
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #8b48bf;
+  padding: 0.8rem 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  cursor: pointer;
+}
+/* ----------ESTILOS DEL FOOTER------- */
+.footer {
+  background-color: #1e1e26;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 3rem 0rem 3rem;
+  flex-wrap: wrap;
+  color: white;
+  gap: 2.5rem;
+}
+.footer__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 2rem 3rem;
+  gap: 4rem;
+}
+.footer__redes {
+  display: flex;
+  gap: 1.2rem;
+}
+
+/* --estilos a las listas-- */
+
+.footer__listall {
+  display: flex;
+  gap: 8rem;
+}
+.footer__list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__list ul li {
+  margin: 0.8rem 0rem;
+}
+.footer__list ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+/* --estilos al buscador-- */
+.footer__search {
+  position: relative;
+  bottom: 35px;
+}
+.footer__input {
+  border-radius: 35px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  height: 2rem;
+}
+.footer__input::placeholder {
+  font-size: 14px;
+  color: #a0a0a0;
+  padding-left: 1rem;
+}
+.footer__btn {
+  background-color: #8b48bf;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  font-size: 13px;
+}
+/* --ESTILOS AL COPYRIGHT-- */
+.footer__copyright {
+  padding: 2rem 6rem;
+  display: flex;
+  justify-content: end;
+  color: #8c8c94;
+  font-size: 12px;
+}
+/* -------MEDIAS QUERYS------- */
+
+@media (max-width: 480px) {
+  .cards__tittle {
+    background-color: rgba(139, 72, 191, 0.3);
+  }
+  .cards__desc {
+    padding-left: 15px;
+  }
+  .cards__container {
+    margin: 1.5rem 0rem 1.5rem 1.5rem;
+  }
+  .logo h1 {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  nav {
+    display: none;
+  }
+  header [class^="contact"] {
+    display: none;
+  }
+  .news__icono {
+    width: 100%;
+  }
+  .curiosity {
+    background-color: #3cddf3;
+  }
+  .search {
+    background-color: #3cddf3;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem;
+    text-align: center;
+  }
+  .search__btn {
+    font-size: 14px;
+    background-color: #232c50;
+    color: #ffffff;
+  }
+  .footer__copyright {
+    justify-content: center;
+  }
+  .footer__search {
+    order: -2;
+    bottom: 0;
+  }
+  .footer__listall {
+    order: -1;
+  }
+  .footer input {
+    width: 300px;
+  }
+  .footer__icons {
+    align-items: center;
+  }
+  .footer__redes {
+    order: -1;
+    gap: 4rem;
+  }
+  .sport__card:first-child,
+  .sport__card:nth-child(3) {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+@media (max-width: 1400px) {
+  .news {
+    gap: 5%;
+  }
+}
+@media (max-width: 1150px) {
+  .news {
+    gap: 1%;
+  }
+  .news__intro {
+    width: 400px;
+  }
+  .news__icono {
+    width: 400px;
+  }
+  .curiosity {
+    gap: 2%;
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 940px) {
+  nav ul {
+    gap: 1rem;
+  }
+  header ul {
+    font-size: 12px;
+  }
+}
+@media (max-width: 760px) {
+  nav ul {
+    gap: 0.5rem;
+  }
+  header {
+    padding: 3rem 2.5rem;
+  }
+}
+@media (max-width: 620px) {
+  nav ul {
+    /* display: none; */
+    flex-wrap: wrap;
+    margin: 0 2rem;
+    justify-content: center;
+  }
+  /* .search {
+    padding: 3rem 5rem;
+  } */
+}
